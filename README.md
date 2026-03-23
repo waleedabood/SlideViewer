@@ -23,23 +23,29 @@ Create, edit, and present slide decks using standard markdown. Features a live e
 - **Copy LLM Instructions** -- one-click copy of the slide format guide for use with any AI assistant
 - **Autosave & Recent Files** -- automatic saving and quick access to recently opened files
 
-## Requirements
-
-- Python 3.10+
-- PyQt6 with WebEngine support
-
 ## Installation
 
-From the project directory:
+### Standalone macOS App (no Python needed)
+
+1. Download **SlideViewer-macOS.zip** from the [latest release](https://github.com/waleedabood/SlideViewer/releases/latest)
+2. Unzip it
+3. **First launch only** — macOS will show a security warning because the app is not signed with an Apple Developer certificate. To open it:
+   - **Right-click** (or Control-click) the app and select **Open**, then click **Open** in the dialog
+   - Or run this in Terminal: `xattr -cr /path/to/SlideViewer.app`
+4. After the first launch, it will open normally
+
+### Install via pip
+
+```bash
+pip install slide-viewer
+```
+
+**Requirements:** Python 3.10+, PyQt6 with WebEngine support
+
+Or from the project directory:
 
 ```bash
 pip install .
-```
-
-Or install dependencies manually:
-
-```bash
-pip install -r requirements.txt
 ```
 
 ## Usage
