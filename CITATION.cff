@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "Slide Viewer"
+version: "1.0.0"
+date-released: "2026-03-23"
+authors:
+  - family-names: "Abood"
+    given-names: "Waleed"
+url: "https://github.com/waleedabood/SlideViewer"
+repository-code: "https://github.com/waleedabood/SlideViewer"
+license: "MIT"
+keywords:
+  - presentation
+  - markdown
+  - slides
+  - desktop-app
+  - PyQt6
+abstract: >-
+  A desktop application for creating and presenting markdown-based slide decks,
+  built with Python and PyQt6. Features live editing, AI assistant integration,
+  customizable themes, presentation and presenter modes, and PowerPoint export.
